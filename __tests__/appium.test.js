@@ -13,7 +13,7 @@ const config = {
             'app': 'Android'
 
 };
-const driver = wd.promiseChainRemote('http://mayankmaurya:4N7wU1Sq7cBGRHCaGf5Y72mTS30xyLV1faGphyvELhuNoTLMRk@beta-hub.lambdatest.com/wd/hub');
+const driver = wd.promiseChainRemote('http://username:accesskey@beta-hub.lambdatest.com/wd/hub');
 
 beforeAll(async () => {
   await driver.init(config);
